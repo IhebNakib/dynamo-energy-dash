@@ -1,4 +1,5 @@
 import { Zap, TrendingUp, Battery, Activity } from "lucide-react";
+import { Navigation } from "@/components/Navigation";
 import { KPICard } from "@/components/KPICard";
 import { YearlyTrendChart } from "@/components/YearlyTrendChart";
 import { RegionalDistribution } from "@/components/RegionalDistribution";
@@ -20,6 +21,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20">
+      <Navigation />
+      
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <header className="mb-12 text-center">
